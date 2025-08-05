@@ -14,7 +14,7 @@ model_path = os.path.join(current_dir, "random_forest_model_titanic.pkl")
 model = joblib.load(model_path)
 
 # Load the scaler
-scaler_path = os.path.join(current_dir, "minmax_scaler.pkl")
+scaler_path = os.path.join(current_dir, "scaler.pkl")
 scaler = joblib.load(scaler_path)
 # Streamlit page config
 st.set_page_config(page_title="🚢 Titanic Survival Predictor", layout="centered")
