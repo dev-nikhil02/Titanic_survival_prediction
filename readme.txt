@@ -103,6 +103,8 @@ The confusion matrix helps in evaluating the performance of the classification m
 
 ## 💻 Streamlit Web App
 
+- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+
 Users can interact with the model by entering the following:
 
 - Age (slider)
@@ -116,6 +118,3 @@ Users can interact with the model by entering the following:
 Inputs are automatically **scaled using the saved MinMaxScaler**, passed to the trained model, and prediction is shown on-screen.
 
 ---
-
-## 📁 Project Structure
-
