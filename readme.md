@@ -75,7 +75,7 @@ The model is built using a Random Forest Classifier, which allows us to extract 
 
 Below is the bar chart showing the most important features ranked by the model:
 
-![Feature Importance](assets/feature_importance.png)
+![Feature Importance](assests/feature_importance.png)
 
 > 📌 **Insights**:
 > - `Title` and `Sex` are the most influential features, indicating social status and gender played a major role in survival chances.
@@ -89,7 +89,7 @@ Below is the bar chart showing the most important features ranked by the model:
 
 The confusion matrix helps in evaluating the performance of the classification model by comparing predicted labels with actual labels.
 
-![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix](assests/confusion_matrix.png)
 
 > 📌 **Interpretation**:
 > - **True Negatives (99)**: Correctly predicted "Not Survived"
