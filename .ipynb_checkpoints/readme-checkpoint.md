@@ -103,7 +103,7 @@ The confusion matrix helps in evaluating the performance of the classification m
 
 ## 💻 Streamlit Web App
 
-- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+- **Source**: [Live project link](https://dev-nikhil02-titanic-survival-prediction-deploymentapp-qgmyqm.streamlit.app/)
 
 Users can interact with the model by entering the following:
 
