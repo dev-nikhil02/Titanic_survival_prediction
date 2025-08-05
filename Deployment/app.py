@@ -4,7 +4,6 @@ import pandas as pd
 import joblib
 
 import os
-import streamlit as st
 
 st.write("Current working directory:", os.getcwd())
 st.write("Files in directory:", os.listdir())
