@@ -2,17 +2,20 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-
 import os
 
-st.write("Current working directory:", os.getcwd())
-st.write("Files in directory:", os.listdir())
 
 
-# Load model and scaler
-model = joblib.load("random_forest_model_titanic.pkl")
-scaler = joblib.load("scaler.pkl")  # Make sure it's the same one used during training
+# Get the current directory where app.py is running
+current_dir = os.path.dirname(__file__)
 
+# Load the model
+model_path = os.path.join(current_dir, "random_forest_model_titanic.pkl")
+model = joblib.load(model_path)
+
+# Load the scaler
+scaler_path = os.path.join(current_dir, "minmax_scaler.pkl")
+scaler = joblib.load(scaler_path)
 # Streamlit page config
 st.set_page_config(page_title="🚢 Titanic Survival Predictor", layout="centered")
 st.title("🚢 Titanic Survival Prediction App")
