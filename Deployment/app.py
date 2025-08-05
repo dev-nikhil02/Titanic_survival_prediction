@@ -3,6 +3,13 @@ import numpy as np
 import pandas as pd
 import joblib
 
+import os
+import streamlit as st
+
+st.write("Current working directory:", os.getcwd())
+st.write("Files in directory:", os.listdir())
+
+
 # Load model and scaler
 model = joblib.load("random_forest_model_titanic.pkl")
 scaler = joblib.load("scaler.pkl")  # Make sure it's the same one used during training
