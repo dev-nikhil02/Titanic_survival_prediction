@@ -18,9 +18,7 @@ scaler_path = os.path.join(current_dir, "scaler.pkl")
 scaler = joblib.load(scaler_path)
 # Streamlit page config
 st.set_page_config(page_title="War of Sruvival", layout="centered")
-st.title("🚢 War of Sruvival")
-st.write("### Subtitle Goes Here")
-
+st.title("🚢 Titanic Survival Prediction App")
 # Title mapping
 
 title_mapping = {
