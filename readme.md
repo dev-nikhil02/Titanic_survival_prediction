@@ -101,6 +101,13 @@ The confusion matrix helps in evaluating the performance of the classification m
 
 ---
 
+## ☁️ Deployment using Streamlit  
+
+I deployed the model using Streamlit.
+
+- I then made a simple frontend UI for deployment.
+- I used Streamlit Cloud to deploy the final working model.
+
 ## 💻 Streamlit Web App
 
 - **Source**: [Live project link](https://war-of-survival.streamlit.app/)
@@ -118,3 +125,6 @@ Users can interact with the model by entering the following:
 Inputs are automatically **scaled using the saved MinMaxScaler**, passed to the trained model, and prediction is shown on-screen.
 
 ---
+
+## Github Repository
+[Repo link ](https://github.com/dev-nikhil02/War-of-Survival)
